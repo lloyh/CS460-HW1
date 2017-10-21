@@ -1,7 +1,23 @@
+.imgCar 
+{
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
 img.resize 
 {
     max-width:60%;
     max-height:60%;    
+}
+
+img.resize2
+{
+    max-width:80%;
+    max-height:80%;       
 }
 
 img.image 
@@ -93,6 +109,16 @@ tr:nth-child(even)
     background-color: #dddddd;
 }
 
+dt 
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+dd 
+{
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+}
 
 
 
